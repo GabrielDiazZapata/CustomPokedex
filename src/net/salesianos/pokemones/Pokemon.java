@@ -15,4 +15,42 @@ public class Pokemon {
         this.Descripcion = Descripcion;
     }
 
+    public Pokemon(String Nombre, String Tipo){
+        this.Nombre = Nombre;
+        this.Tipo = Tipo;
+    }
+
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getTipo() {
+        return Tipo;
+    }
+
+    public double getAltura() {
+        return Altura;
+    }
+
+    public void setAltura(double Altura) {
+        this.Altura = Altura;
+    }
+
+    public double getPeso() {
+        return Peso;
+    }
+
+    public void setPeso(double Peso) {
+        this.Peso = Peso;
+    }
+
+    public String getDescripcion() {
+        return Descripcion;
+    }
+
+    public void setDescripcion(String Descripcion) {
+        this.Descripcion = Descripcion;
+    }
+
 }
