@@ -1,7 +1,7 @@
 package net.salesianos.lista;
 import java.util.Arrays;
 
-import net.salesianos.pokemones.*;
+import net.salesianos.pokemones.pokemon;
 public class listaInteligente {
 private pokemon[] lista;
 private int cantidad;
