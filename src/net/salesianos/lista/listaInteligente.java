@@ -43,6 +43,11 @@ public void mostrarPokemon() {
     }
 }
 
-
+public pokemon getPokemon(int posicion) {
+    if (posicion < 0 || posicion >= cantidad) {
+        return null;
+    }
+    return lista[posicion];
+    }
 
 }
