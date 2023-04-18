@@ -36,6 +36,13 @@ public void eliminarPokemon(String Nombre) {
 
 }
 
+public void mostrarPokemon() {
+    System.out.println("Lista de Pokemons:");
+    for (int i = 0; i < cantidad; i++) {
+        System.out.println((i+1) + ". " + lista[i].toString());
+    }
+}
+
 
 
 }
